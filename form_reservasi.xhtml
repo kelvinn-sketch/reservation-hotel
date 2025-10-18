@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Reservation Hotel Room</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-decor">
+      <img src="stars.png" alt="Five Stars" class="stars" />
+      <div class="hotel-logo-box">
+        <div class="hotel-frame">
+          <img src="hotel-logo.png" alt="Hotel Logo" class="hotel-logo" />
+        </div>
+      </div>
+
+      <div class="title-box">
+        <img src="trolley-left.png" alt="Trolley Bag Left" class="trolley trolley-left" />
+        <h1>Reservation Hotel Room</h1>
+        <img src="leaf-right.png" alt="Leaf Right" class="leaf leaf-right" />
+      </div>
+    </div>
+
+    <form id="reservationForm" action="#" method="post">
+      <div class="form-wrapper">
+        <fieldset class="left-box">
+          <legend><img src="user-icon.png" alt="User" class="icon" /> Personal Data</legend>
+          <div class="section">
+            <ol>
+              <li><label for="name">Name</label><br />
+                <input type="text" id="name" name="name" size="30" /></li>
+              <li><label for="gender">Gender</label><br />
+                <input type="text" id="gender" name="gender" size="30" /></li>
+              <li><label for="email">Email Address</label><br />
+                <input type="text" id="email" name="email" size="30" /></li>
+              <li><label for="telp">Telp Number</label><br />
+                <input type="text" id="telp" name="telp" size="30" /></li>
+            </ol>
+          </div>
+        </fieldset>
+
+        <fieldset class="right-box">
+          <legend><img src="room-icon.png" alt="Room" class="icon" /> Reservation Room</legend>
+          <div class="section">
+            <ol>
+              <li><label for="rname">Reservator Name</label><br />
+                <input type="text" id="rname" name="rname" size="30" /></li>
+              <li><label for="bookdate">Booking Date</label><br />
+                <input type="date" id="bookdate" name="bookdate" /></li>
+              <li><label for="rtype">Room Type</label><br />
+                <select id="rtype" name="rtype">
+                  <option>Deluxe</option>
+                  <option>Superior</option>
+                  <option>Suite</option>
+                </select></li>
+              <li><label for="bedtype">Bed Type</label><br />
+                <select id="bedtype" name="bedtype">
+                  <option>Single bed</option>
+                  <option>Double bed</option>
+                  <option>King size bed</option>
+                </select></li>
+              <li><label>Breakfast</label><br />
+                <input type="radio" id="with" name="breakfast" value="with" checked="checked" />
+                <label for="with">With Breakfast</label>
+                <input type="radio" id="without" name="breakfast" value="without" />
+                <label for="without">Without Breakfast</label>
+              </li>
+            </ol>
+          </div>
+        </fieldset>
+
+        <fieldset class="bottom-box">
+          <legend><img src="card-icon.png" alt="Card" class="icon" /> Payment</legend>
+          <div class="section">
+            <ol>
+              <li><label for="checkin">Check in date</label><br />
+                <input type="date" id="checkin" name="checkin" /></li>
+              <li><label for="checkout">Check out date</label><br />
+                <input type="date" id="checkout" name="checkout" /></li>
+              <li><label for="paymethod">Payment Method</label><br />
+                <select id="paymethod" name="paymethod">
+                  <option>cash</option>
+                  <option>credit</option>
+                  <option>transfer</option>
+                </select></li>
+            </ol>
+            <div class="submit-right">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+
+    <div class="footer-section">
+      <div class="info-left">
+        <h3>Comfort &amp; Serenity Since 2005</h3>
+        <p>Our hotel offers a warm atmosphere, elegant rooms, and excellent service for your best stay experience.</p>
+      </div>
+      <div class="info-center">
+        <img src="staff-cleaning.png" alt="Hotel Staff" class="staff" />
+      </div>
+
+      <div class="info-right">
+        <fieldset class="contact-box">
+          <legend>Contact Us</legend>
+          <p><strong>Customer Service:</strong><br /> +62 812 3456 7890</p>
+          <p><strong>Email:</strong><br /> keps@atmahotel.com</p>
+          <p><strong>Address:</strong><br /> Jl. AtmaMantap No. 1<br /> Bali, Indonesia</p>
+        </fieldset>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #f8e5c9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  position: relative;
+}
+
+.header-decor {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.stars {
+  width: 130px;
+  opacity: 0.95;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.hotel-logo-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hotel-frame {
+  width: 160px;
+  height: 160px;
+  background: #f9e9c9;
+  border-radius: 20px;
+  border: 1px solid #d6a85c;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-frame:hover {
+  transform: scale(1.03);
+}
+
+.hotel-logo {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #ffdda0, #ffe9c3);
+  border: 2px solid #b37500;
+  border-radius: 10px;
+  padding: 10px 30px;
+  width: fit-content;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.25);
+  position: relative;
+}
+
+h1 {
+  font-size: 28px;
+  color: #3e2723;
+  font-family: 'Playfair Display', Georgia, serif;
+  margin: 0;
+}
+
+.leaf {
+  width: 70px;
+  opacity: 0.9;
+  position: absolute;
+  top: 10px;
+}
+.leaf-right {
+  right: -60px;
+  transform: rotate(10deg);
+}
+
+.trolley {
+  width: 75px;
+  opacity: 0.95;
+  position: absolute;
+  top: 8px;
+  filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.3));
+}
+
+.trolley-left {
+  left: -70px;
+  transform: rotate(-3deg);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+fieldset {
+  background: linear-gradient(170deg, #fff5e1, #ffeacc);
+  border: 2px solid #b37500;
+  border-radius: 12px;
+  padding: 10px 15px 20px 15px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.15);
+  width: 320px;
+  transition: transform 0.3s;
+}
+
+fieldset:hover {
+  transform: translateY(-3px);
+}
+
+legend {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #4a2c00;
+  background: #ffd180;
+  border: 1px solid #a15c00;
+  border-radius: 8px;
+  padding: 6px 12px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.section {
+  background-color: #fffaf0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"], select, input[type="date"] {
+  width: 95%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 1px solid #b37500;
+  border-radius: 6px;
+  background-color: #fff8e1;
+}
+
+input[type="radio"] {
+  accent-color: #3e2723;
+}
+
+input[type="submit"] {
+  background-color: #3e2723;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+input[type="submit"]:hover {
+  background-color: #5d4037;
+}
+
+.submit-right {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.info-left {
+  width: 250px;
+  color: #3e2723;
+  font-style: italic;
+}
+
+.info-left h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.info-center img.staff {
+  width: 230px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.contact-box {
+  width: 250px;
+  background: #fff5e1;
+  border: 2px solid #b37500;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+  padding: 10px 15px;
+}
+
+.contact-box legend {
+  font-size: 18px;
+  color: #4a2c00;
+  background: #ffd180;
+  border-radius: 6px;
+}
